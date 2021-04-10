@@ -1,0 +1,13 @@
+version: '3'
+services:
+
+services:
+  solana:
+    container_name: solana
+    hostname: solana
+    command: ls
+    build: ./
+    ports:
+       - "443:443"
+    volumes:
+       - ./root/:/root/
