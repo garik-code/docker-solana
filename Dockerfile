@@ -55,5 +55,4 @@ RUN set -eux; \
     rm -rf /usr/local/cargo/registry; \
     rm /usr/local/cargo/.package-cache;
 
-COPY . ./radicle-bins
 CMD tail -f /dev/null
